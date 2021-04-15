@@ -3,7 +3,7 @@ public class Number {
 
 	public static void main(String[] args) {
 
-	System.out.print("10°³ÀÇ ·£´ı ¼ıÀÚ Áß ÇÏ³ª¸¦ ¸ÂÃçº¸¼¼¿ä(1~50±îÁö):");
+	System.out.print("10ê°œì˜ ëœë¤ ìˆ«ì ì¤‘ í•˜ë‚˜ë¥¼ ë§ì¶°ë³´ì„¸ìš”(1~50ê¹Œì§€):"); //ë¡œë˜ ìˆ«ì ì…ë ¥
 	Scanner scan = new Scanner(System.in);
 	int number=scan.nextInt();
 	int []a=new int[10];
@@ -17,10 +17,10 @@ public class Number {
 	
 	for(int b=0; b<10; b++) {
 		if(a[b] == number) {
-		System.out.println("´çÃ·! ÀÏÄ¡ÇÏ´Â ¼ıÀÚ°¡ ÀÖ½À´Ï´Ù");
+		System.out.println("ë‹¹ì²¨! ì¼ì¹˜í•˜ëŠ” ìˆ«ìê°€ ìˆìŠµë‹ˆë‹¤");
 		diff = 1;
 	}
 	}
-	if(diff==0) System.out.println("²Î! ´ÙÀ½±âÈ¸¿¡~");
+	if(diff==0) System.out.println("ê½! ë‹¤ìŒê¸°íšŒì—~");
 }
 }
